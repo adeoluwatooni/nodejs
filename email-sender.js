@@ -3,13 +3,13 @@ const nodemailer = require('nodemailer')
 
 
 // using nodemailer module to help node gain access to the mail you will be sending from
-const transporter = nodemailer.createTransport({
+var transporter = nodemailer.createTransport({
   service: 'gmail',
-  auth : {
-    user : 'idowu.adeoluwa@yahoo.com',
-    password: 'Oluwatooni.97'
+  auth: {
+    user: 'email@gmail.com',
+    pass: 'password'
   }
-})
+});
 
 
 
